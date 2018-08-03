@@ -1,16 +1,16 @@
 import { Commun } from './communty';
 export const COMM: Commun[] = [
-  { title: 'African Women in Computing', mailing: 'http://systers.org/mailman/listinfo/africanwic', desc:'Our group celebrates the accomplishments of African women in the areas of STEM and technology innovation. We provide exposure to role models for African girls in the area of technology', img:'' },
+  { title: 'African Women in Computing', mailing: 'http://systers.org/mailman/listinfo/africanwic', desc:'Our group celebrates the accomplishments of African women in the areas of STEM and technology innovation. We provide exposure to role models for African girls in the area of technology', img:'../assets/img/AfricanWiC-stolen.jpg' },
 
-  { title: 'Asian Women in Computing', mailing: 'http://systers.org/mailman/listinfo/asianwic/', desc:'Our group encourages Asian women to stay in technical fields, provides networking opportunities, and helps members advance their careers by conquering cultural barriers.', img:'' },
+  { title: 'Asian Women in Computing', mailing: 'http://systers.org/mailman/listinfo/asianwic/', desc:'Our group encourages Asian women to stay in technical fields, provides networking opportunities, and helps members advance their careers by conquering cultural barriers.', img:'../assets/img/AsianWiC.jpg' },
 
-  { title: 'Arab Women in Computing', mailing: 'http://systers.org/mailman/listinfo/awic/', desc:'Created from the regional collaborative on Women in Computing in the Arab World with NYU Abu Dhabi, our group connects Arab women in computing around the globe to engage with and inspire one another.', img:'' },
+  { title: 'Arab Women in Computing', mailing: 'http://systers.org/mailman/listinfo/awic/', desc:'Created from the regional collaborative on Women in Computing in the Arab World with NYU Abu Dhabi, our group connects Arab women in computing around the globe to engage with and inspire one another.', img:'../assets/img/ArabWiC.jpeg' },
 
-  { title: 'Black Women in Computing', mailing: 'http://portal-beta.systers.org/bwic/about/', desc:'Our group provides support and resources to increase the number of black women in computing-related fields', img:'' },
+  { title: 'Black Women in Computing', mailing: 'http://portal-beta.systers.org/bwic/about/', desc:'Our group provides support and resources to increase the number of black women in computing-related fields', img:'../assets/img/BlackWiC.jpeg' },
 
-  { title: 'Chinese Women in Computing', mailing: 'http://systers.org/mailman/listinfo/chinesewic/', desc:'Our group connects with Chinese women in computer science and technical fields from around the world, We encourage each other stay in STEM, and inspire each other to make an even bigger impact in our fields.', img:'' },
+  { title: 'Chinese Women in Computing', mailing: 'http://systers.org/mailman/listinfo/chinesewic/', desc:'Our group connects with Chinese women in computer science and technical fields from around the world, We encourage each other stay in STEM, and inspire each other to make an even bigger impact in our fields.', img:'../assets/img/AfricanWiC-stolen.jpg' },
 
-  { title: 'Filipinas in Computing', mailing: 'http://systers.org/mailman/listinfo/filipinasic/', desc:'Our group  brings together Filipina women interested in, working in, or studying computing or STEM. Our goal is to promote the visibility and impact of Filipinas in tech, and to celebrate their success in the industry.', img:'' },
+  { title: 'Filipinas in Computing', mailing: 'http://systers.org/mailman/listinfo/filipinasic/', desc:'Our group  brings together Filipina women interested in, working in, or studying computing or STEM. Our goal is to promote the visibility and impact of Filipinas in tech, and to celebrate their success in the industry.', img:'../assets/img/AfricanWiC-stolen.jpg' },
   
   { title: 'Indian Women in Computing', mailing: 'http://systers.org/mailman/listinfo/indianwic/', desc:'Our group offers guidance and mentoring to our members so they may succeed in the fields of computing and technology.', img:'' },
 
