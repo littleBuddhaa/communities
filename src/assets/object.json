@@ -1,35 +1,5 @@
 [
   {
-    "start": "2018-07-28",
-    "end": "2018-07-28",
-    "title": "GSoC Demos (Phase I & II) (ANJALI dhanuka)",
-    "location": "https://zoom.us/j/5896779964",
-    "color": "blue"
-  },
-  {
-    "start": "2018-07-29",
-    "end": "2018-07-29",
-    "title": "GSoC Demos (Phase I & II) (Sombuddha Chakravarty)",
-    "description": "Demo work for 1st and second phase",
-    "location": "https://zoom.us/j/5896779964",
-    "color": "blue"
-  },
-  {
-    "start": "2018-07-30",
-    "end": "2018-07-30",
-    "title": "Scrum Check-in Due",
-    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread.",
-    "color": "blue"
-  },
-  {
-    "start": "2018-07-30",
-    "end": "2018-07-30",
-    "title": "Week 11 Blog Post(s) Due",
-    "description": "<b>Post your Blog Post(s) for Week 11.</b>",
-    "location": "Personal Blog",
-    "color": "blue"
-  },
-  {
     "start": "2018-08-02",
     "end": "2018-08-02",
     "title": "Week 12 PR(s) Due",
@@ -43,6 +13,13 @@
     "title": "Week 12 Wiki Report Due",
     "description": "<b>Submit your Weekly Wiki Report for Week 12.</b>",
     "location": "GitHub Wiki",
+    "color": "blue"
+  },
+  {
+    "start": "2018-08-03",
+    "end": "2018-08-03",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread.",
     "color": "blue"
   },
   {
@@ -98,61 +75,9 @@
     "color": "blue"
   },
   {
-    "start": "2018-07-28",
-    "end": "2018-07-28",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
-    "description": "<b>Agenda:</b><br><ul><li>15 min ~ Baani Demo&nbsp;<ul><li>10 min ~ Feedback for Baani</li></ul></li><li>15 min ~ Anumeha Demo&nbsp;<ul><li>10 min ~ Feedback for Anumeha</li></ul></li><li>10 min ~ Buffer Time/Wrap Up</li></ul><br><b>Meeting Details:</b><br>Join Google Hangouts.",
-    "color": "red"
-  },
-  {
-    "start": "2018-07-28",
-    "end": "2018-07-28",
-    "title": "AMA with Baani",
-    "color": "red"
-  },
-  {
-    "start": "2018-07-29",
-    "end": "2018-07-29",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE",
-    "color": "red"
-  },
-  {
-    "start": "2018-07-30",
-    "end": "2018-07-30",
-    "title": "Kanika - Office hours",
-    "color": "red"
-  },
-  {
-    "start": "2018-07-31",
-    "end": "2018-07-31",
-    "title": "Ancy: Baani 1:1",
-    "color": "red"
-  },
-  {
-    "start": "2018-07-31",
-    "end": "2018-07-31",
-    "title": "May - Office Hours",
-    "description": "Scheduled time outside of regular open source meetings to meet with members.",
-    "location": "https://zoom.us/j/5896779964",
-    "color": "red"
-  },
-  {
-    "start": "2018-07-31",
-    "end": "2018-07-31",
-    "title": "1:1 Bethany Baani",
-    "color": "red"
-  },
-  {
-    "start": "2018-08-01",
-    "end": "2018-08-01",
-    "title": "1:1 Anumeha-Kanika",
-    "color": "red"
-  },
-  {
     "start": "2018-08-02",
     "end": "2018-08-02",
-    "title": "Bethany - Office Hours",
+    "title": "1:1 Anumeha-Kanika",
     "color": "red"
   },
   {
@@ -163,10 +88,74 @@
     "color": "red"
   },
   {
+    "start": "2018-08-03",
+    "end": "2018-08-03",
+    "title": "May - Office Hours",
+    "description": "Scheduled time outside of regular open source meetings to meet with members.",
+    "location": "https://zoom.us/j/5896779964",
+    "color": "red"
+  },
+  {
+    "start": "2018-08-03",
+    "end": "2018-08-03",
+    "title": "AMA with Baani",
+    "color": "red"
+  },
+  {
+    "start": "2018-08-04",
+    "end": "2018-08-04",
+    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
+    "description": "<b>Agenda:</b><br><ul><li>15 min ~ Baani Demo&nbsp;<ul><li>10 min ~ Feedback for Baani</li></ul></li><li>15 min ~ Anumeha Demo&nbsp;<ul><li>10 min ~ Feedback for Anumeha</li></ul></li><li>10 min ~ Buffer Time/Wrap Up</li></ul><br><b>Meeting Details:</b><br>Join Google Hangouts.",
+    "color": "red"
+  },
+  {
+    "start": "2018-08-05",
+    "end": "2018-08-05",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE",
+    "color": "red"
+  },
+  {
     "start": "2018-08-06",
     "end": "2018-08-06",
     "title": "1:1 Dinuka Anumeha",
     "description": "<b>Agenda:</b><br><a href=\"https://docs.google.com/document/d/1GDbLerYPf8Bj1HXE2iQeZ14KI-xQ7MuU6ZBkiPWeKK0/edit?usp=sharing\">https://docs.google.com/document/d/1GDbLerYPf8Bj1HXE2iQeZ14KI-xQ7MuU6ZBkiPWeKK0/edit?usp=sharing</a>",
+    "color": "red"
+  },
+  {
+    "start": "2018-08-06",
+    "end": "2018-08-06",
+    "title": "Kanika - Office hours",
+    "color": "red"
+  },
+  {
+    "start": "2018-08-07",
+    "end": "2018-08-07",
+    "title": "Ancy: Baani 1:1",
+    "color": "red"
+  },
+  {
+    "start": "2018-08-07",
+    "end": "2018-08-07",
+    "title": "1:1 Bethany Baani",
+    "color": "red"
+  },
+  {
+    "start": "2018-08-08",
+    "end": "2018-08-08",
+    "title": "1:1 Janice Baani",
+    "color": "red"
+  },
+  {
+    "start": "2018-08-09",
+    "end": "2018-08-09",
+    "title": "Rupinder Office hours",
+    "color": "red"
+  },
+  {
+    "start": "2018-08-09",
+    "end": "2018-08-09",
+    "title": "Bethany - Office Hours",
     "color": "red"
   },
   {
