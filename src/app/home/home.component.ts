@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import word from '../caldata';
+import { COMM } from '../commun-data';
 let arr = [];
 var _i=0;
 while(word[_i]) {
@@ -27,6 +28,7 @@ while(word[_i]) {
 
 export class HomeComponent implements OnInit {
   events = arr;
+  details=COMM;
   constructor() { }
 
   ngOnInit() {

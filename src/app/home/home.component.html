@@ -46,101 +46,164 @@
 </div>
 <center><h3><b>Systers Affinity Groups</b> </h3></center>
 
-<div class="grid-block">
-  <div class="flip-container">
-    <div id="f1" class="flip-card shadow">
-      <div class="front-face">
-        <img src="../assets/img/women1.jpg">
-        <span>African Women in Computing</span>
-      </div>
-      <div class="back-face-center">
-        <p>
-         Our group celebrates the accomplishments of African women in the areas of STEM and technology innovation. We provide exposure to role models for African girls in the area of technology
-        </p>
-      </div>
+<div class="container ">
+
+    <div class="row">
+        <div class="col-lg-3 col-md-6"  style="margin-bottom: 20px;">
+        <div class="card cardg" style="margin:auto;">
+            <img class="sig-img" src="../assets/img/women1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">African Women in Computing</h4>
+                <p class="card-text"> Our group celebrates the accomplishments of African women in the areas of STEM and technology innovation. We provide exposure to role models for African girls in the area of technologys</p>
+            </div>
+        <br>
+        <br>
+       
+        <div style="margin-bottom: 20px;">
+                       
+        </div>
+         </div>
+        </div>
+        <br>
+        <br>
+        <div class="col-lg-3 col-md-6"  style="margin-bottom: 20px;">
+        <div class="card cardg" style="margin:auto;">
+            <img class="sig-img" src="../assets/img/women1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">African Women in Computing</h4>
+                <p class="card-text"> Our group celebrates the accomplishments of African women in the areas of STEM and technology innovation. We provide exposure to role models for African girls in the area of technologys</p>
+            </div>
+        <br>
+        <br>
+       
+        <div style="margin-bottom: 20px;">
+                       
+        </div>
+         </div>
+        </div>
+        <br>
+        <br>
+        <div class="col-lg-3 col-md-6"  style="margin-bottom: 20px;">
+        <div class="card cardg" style="margin:auto;">
+            <img class="sig-img" src="../assets/img/women1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">African Women in Computing</h4>
+                <p class="card-text"> Our group celebrates the accomplishments of African women in the areas of STEM and technology innovation. We provide exposure to role models for African girls in the area of technologys</p>
+            </div>
+        <br>
+        <br>
+       
+        <div style="margin-bottom: 20px;">
+                       
+        </div>
+         </div>
+        </div>
+        <br>
+        <br>
+         <div class="col-lg-3 col-md-6"  style="margin-bottom: 20px;">
+        <div class="card cardg" style="margin:auto;">
+            <img class="sig-img" src="../assets/img/women1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">African Women in Computing</h4>
+                <p class="card-text"> Our group celebrates the accomplishments of African women in the areas of STEM and technology innovation. We provide exposure to role models for African girls in the area of technologys</p>
+            </div>
+        <br>
+        <br>
+       
+        <div style="margin-bottom: 20px;">
+                       
+        </div>
+         </div>
+        </div>
+
+        <br>
+        <br>
     </div>
-  </div>
-  <div class="flip-container">
-    <div id="f2" class="flip-card shadow">
-      <div class="front-face">
-        <img src="./assets/img/women2.jpg">
-        <span>Asian Women in Computing</span>
-      </div>
-      <div class="back-face-center">
-        <p>
-          Our group encourages Asian women to stay in technical fields, provides networking opportunities, and helps members advance their careers by conquering cultural barriers.
-        </p>
-      </div>
-    </div>
-</div>
-<div class="flip-container">
-    <div id="f3" class="flip-card shadow">
-      <div class="front-face">
-        <img src="../assets/img/women3.jpg">
-        <span>Arab Women in Computing</span>
-      </div>
-      <div class="back-face-center">
-        <p> 
-          Created from the regional collaborative on Women in Computing in the Arab World with NYU Abu Dhabi, our group connects Arab women in computing around the globe to engage with and inspire one another.
-        </p>
-      </div>
-    </div>
-</div>
+
 </div>
 <center><a routerLink ="/communities"> <button type="button" class="btn btn-rounded waves-light brand-c" mdbWavesEffect style="background-color: #54BCEB;">Click Here to Know More </button></a></center>
 <hr>
 
 <center><h3><b>Upcoming Events</b> </h3></center>
+<div class="container ">
 
-<div class="grid-block">
-  <div class="flip-container">
-    <div id="f1" class="flip-card shadow">
-      <div class="front-face">
-        <span>{{events[0].title}}</span>
-        <hr>
-        <p> <i class="fa fa-calendar" aria-hidden="true"></i> {{events[0].start }}</p>
-        <p style="word-wrap: break-word ;"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: {{events[0].location}} </p>
-      </div>
-      <div class="back-face-center">
-      <h5> About {{events[0].title}} </h5>
-
-        <p [innerHTML] ="events[0].description" style="word-wrap: break-word ;" ></p> 
-
-      </div>
-    </div>
-  </div>
-  <div class="flip-container">
-    <div id="f2" class="flip-card shadow">
-      <div class="front-face">
-        
-        <span>{{events[1].title}}</span>
-        <hr>
-        <p class="white-text"> <i class="fa fa-calendar" aria-hidden="true"></i> {{events[1].start }}</p>
-        <p class="white-text" style="word-wrap: break-word ;"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: {{events[1].location}} </p>
-      </div>
-      <div class="back-face-center">  
-        <h5> About {{events[1].title}} </h5>
-
-        <p [innerHTML] ="events[1].description" style="word-wrap: break-word ;" ></p> 
-      </div>
-    </div>
-  </div>
-  <div class="flip-container">
-    <div id="f3" class="flip-card shadow">
-      <div class="front-face">
-        <span>{{events[2].title}}</span>
-        <hr>
-        <p> <i class="fa fa-calendar" aria-hidden="true"></i> {{events[2].start }}</p>
-        <p style="word-wrap: break-word ;"> <i class="fa fa-map-marker" aria-hidden="true"></i> Location:{{events[2].location}} </p>
-      </div>
-      <div class="back-face-center">
-        <h5> About {{events[2].title}} </h5>
-        <p [innerHTML] ="events[2].description" style="word-wrap: break-word ;" ></p> 
-
-      </div>
-    </div>
-  </div>
-  
+    <div class="row">
+        <div class="col-lg-3 col-md-6"  style="margin-bottom: 20px;">
+        <div class="card cardg" style="margin:auto;">
+            
+            <div class="card-body">
+               <div >{{events[0].title}}</div>
+                <p> <i class="fa fa-calendar" aria-hidden="true"></i> {{events[0].start }}</p>
+                <p style="word-wrap: break-word ;"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: {{events[0].location}} </p>
+                <p class="card-text"> {{events[0].description}}</p>
+            </div>
+        <br>
+        <br>
+       
+        <div style="margin-bottom: 20px;">
+                       
+        </div>
+         </div>
+        </div>
+        <br>
+        <br>
+        <div class="col-lg-3 col-md-6"  style="margin-bottom: 20px;">
+        <div class="card cardg" style="margin:auto;">
+            
+            <div class="card-body">
+                <div>{{events[1].title}}</div>
+                <p> <i class="fa fa-calendar" aria-hidden="true"></i> {{events[1].start }}</p>
+                <p style="word-wrap: break-word ;"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: {{events[1].location}} </p>
+                <p class="card-text"> {{events[1].description}}</p>
+            </div>
+        <br>
+        <br>
+       
+        <div style="margin-bottom: 20px;">
+                       
+        </div>
+         </div>
+        </div>
+        <br>
+        <br>
+        <div class="col-lg-3 col-md-6"  style="margin-bottom: 20px;">
+        <div class="card cardg" style="margin:auto;">
+            
+            <div class="card-body">
+            <div >{{events[2].title}}</div>
+                <p> <i class="fa fa-calendar" aria-hidden="true"></i> {{events[2].start }}</p>
+                <p style="word-wrap: break-word ;"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: {{events[2].location}} </p>
+                <p class="card-text"> {{events[2].description}}</p>
+            </div>
+        <br>
+        <br>
+       
+        <div style="margin-bottom: 20px;">
+                       
+        </div>
+         </div>
+        </div>
+        <br>
+        <br>
+        <div class="col-lg-3 col-md-6"  style="margin-bottom: 20px;">
+        <div class="card cardg" style="margin:auto;">
+            <div class="card-body">
+                <div >{{events[3].title}}</div>
+                <p> <i class="fa fa-calendar" aria-hidden="true"></i> {{events[3].start }}</p>
+                <p style="word-wrap: break-word ;"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: {{events[3].location}} </p>
+                <p class="card-text"> {{events[3].description}}</p>
+            </div>
+        <br>
+        <br>
+       
+        <div style="margin-bottom: 20px;">
+                       
+        </div>
+         </div>
+        </div>
+        <br>
+        <br>
+  </div>   
 </div>
 <center><a routerLink ="/dates"> <button type="button" class="btn btn-rounded waves-light brand-c" mdbWavesEffect style="background-color: #54BCEB;">View Events in Calendar </button></a></center>
   
