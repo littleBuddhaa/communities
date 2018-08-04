@@ -1,35 +1,16 @@
-<mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [animation]="'fade'">
-    <mdb-slide>
-        <div class="view">
-            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
-            <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
-        </div>
+<div class ="mx-auto" >
+ 
+    <mdb-carousel [isControls]="true" [animation]="'slide'" [interval]="myInterval" [(activeSlide)]="activeSlideIndex" (activeSlideChange)="activeSlideChange()">
+      <mdb-slide *ngFor="let slide of slides; let index=index">
+        <img [src]="slide.image" class="d-block w-80 h-70 cimages" >
         <div class="carousel-caption">
-            <h3 class="h3-responsive">Light mask</h3>
-            <p>First text</p>
+          
         </div>
-    </mdb-slide>
-    <mdb-slide>
-        <div class="view">
-            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
-            <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-        </div>
-        <div class="carousel-caption">
-            <h3 class="h3-responsive">Strong mask</h3>
-            <p>Secondary text</p>
-        </div>
-    </mdb-slide>
-    <mdb-slide>
-        <div class="view">
-            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
-            <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
-        </div>
-        <div class="carousel-caption">
-            <h3 class="h3-responsive">Slight mask</h3>
-            <p>Third text</p>
-        </div>
-    </mdb-slide>
-</mdb-carousel>
+      </mdb-slide>
+    </mdb-carousel>
+ 
+</div>
+
                 
 <div class = "col-md-12">
 	<div class="card">
@@ -46,12 +27,12 @@
 </div>
 <center><h3><b>Systers Affinity Groups</b> </h3></center>
 
-<div class="container ">
+<div class="container .d-sm-flex">
 
     <div class="row">
-        <div class="col-lg-3 col-md-6"  style="margin-bottom: 20px;">
+        <div class="col-lg-3"  style="margin-bottom: 20px;">
         <div class="card cardg" style="margin:auto;">
-            <img class="sig-img" src="../assets/img/women1.jpg" alt="Card image cap">
+            <img class="sig-img" src="../assets/img/AfricanWiC-stolen.jpg" alt="Card image cap">
             <div class="card-body">
                 <h4 class="card-title">African Women in Computing</h4>
                 <p class="card-text"> Our group celebrates the accomplishments of African women in the areas of STEM and technology innovation. We provide exposure to role models for African girls in the area of technologys</p>
@@ -66,12 +47,12 @@
         </div>
         <br>
         <br>
-        <div class="col-lg-3 col-md-6"  style="margin-bottom: 20px;">
+        <div class="col-lg-3 "  style="margin-bottom: 20px;">
         <div class="card cardg" style="margin:auto;">
-            <img class="sig-img" src="../assets/img/women1.jpg" alt="Card image cap">
+            <img class="sig-img" src="../assets/img/AsianWiC.jpg" alt="Card image cap">
             <div class="card-body">
-                <h4 class="card-title">African Women in Computing</h4>
-                <p class="card-text"> Our group celebrates the accomplishments of African women in the areas of STEM and technology innovation. We provide exposure to role models for African girls in the area of technologys</p>
+                <h4 class="card-title">Asian Women in Computing</h4>
+                <p class="card-text"> Our group encourages Asian women to stay in technical fields, provides networking opportunities, and helps members advance their careers by conquering cultural barriers.</p>
             </div>
         <br>
         <br>
@@ -83,12 +64,12 @@
         </div>
         <br>
         <br>
-        <div class="col-lg-3 col-md-6"  style="margin-bottom: 20px;">
+        <div class="col-lg-3 "  style="margin-bottom: 20px;">
         <div class="card cardg" style="margin:auto;">
-            <img class="sig-img" src="../assets/img/women1.jpg" alt="Card image cap">
+            <img class="sig-img" src="../assets/img/BlackWiC.jpeg" alt="Card image cap">
             <div class="card-body">
-                <h4 class="card-title">African Women in Computing</h4>
-                <p class="card-text"> Our group celebrates the accomplishments of African women in the areas of STEM and technology innovation. We provide exposure to role models for African girls in the area of technologys</p>
+                <h4 class="card-title">Black Women in Computing</h4>
+                <p class="card-text"> Our group provides support and resources to increase the number of black women in computing-related fields</p>
             </div>
         <br>
         <br>
@@ -100,12 +81,12 @@
         </div>
         <br>
         <br>
-         <div class="col-lg-3 col-md-6"  style="margin-bottom: 20px;">
+         <div class="col-lg-3 "  style="margin-bottom: 20px;">
         <div class="card cardg" style="margin:auto;">
-            <img class="sig-img" src="../assets/img/women1.jpg" alt="Card image cap">
+            <img class="sig-img" src="../assets/img/ArabWiC.jpeg" alt="Card image cap">
             <div class="card-body">
-                <h4 class="card-title">African Women in Computing</h4>
-                <p class="card-text"> Our group celebrates the accomplishments of African women in the areas of STEM and technology innovation. We provide exposure to role models for African girls in the area of technologys</p>
+                <h4 class="card-title">Arab Women in Computing</h4>
+                <p class="card-text"> Created from the regional collaborative on Women in Computing in the Arab World with NYU Abu Dhabi, our group connects Arab women in computing around the globe to engage with and inspire one another.</p>
             </div>
         <br>
         <br>
@@ -125,16 +106,16 @@
 <hr>
 
 <center><h3><b>Upcoming Events</b> </h3></center>
-<div class="container ">
+<div class="container .d-sm-flex">
 
     <div class="row">
-        <div class="col-lg-3 col-md-6"  style="margin-bottom: 20px;">
+        <div class="col-lg-3 "  style="margin-bottom: 20px;">
         <div class="card cardg" style="margin:auto;">
             
             <div class="card-body">
-               <div >{{events[0].title}}</div>
-                <p> <i class="fa fa-calendar" aria-hidden="true"></i> {{events[0].start }}</p>
-                <p style="word-wrap: break-word ;"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: {{events[0].location}} </p>
+               <p >{{events[0].title}}</p>
+                <div> <i class="fa fa-calendar" aria-hidden="true"></i> {{events[0].start }}</div>
+                <div style="word-wrap: break-word ;"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: {{events[0].location}} </div>
                 <p class="card-text"> {{events[0].description}}</p>
             </div>
         <br>
@@ -147,13 +128,13 @@
         </div>
         <br>
         <br>
-        <div class="col-lg-3 col-md-6"  style="margin-bottom: 20px;">
+        <div class="col-lg-3"  style="margin-bottom: 20px;">
         <div class="card cardg" style="margin:auto;">
             
             <div class="card-body">
-                <div>{{events[1].title}}</div>
-                <p> <i class="fa fa-calendar" aria-hidden="true"></i> {{events[1].start }}</p>
-                <p style="word-wrap: break-word ;"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: {{events[1].location}} </p>
+                <p>{{events[1].title}}</p>
+                <div> <i class="fa fa-calendar" aria-hidden="true"></i> {{events[1].start }}</div>
+                <div style="word-wrap: break-word ;"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: {{events[1].location}} </div>
                 <p class="card-text"> {{events[1].description}}</p>
             </div>
         <br>
@@ -166,13 +147,13 @@
         </div>
         <br>
         <br>
-        <div class="col-lg-3 col-md-6"  style="margin-bottom: 20px;">
+        <div class="col-lg-3 "  style="margin-bottom: 20px;">
         <div class="card cardg" style="margin:auto;">
             
             <div class="card-body">
-            <div >{{events[2].title}}</div>
-                <p> <i class="fa fa-calendar" aria-hidden="true"></i> {{events[2].start }}</p>
-                <p style="word-wrap: break-word ;"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: {{events[2].location}} </p>
+            <p >{{events[2].title}}</p>
+                <div> <i class="fa fa-calendar" aria-hidden="true"></i> {{events[2].start }}</div>
+                <div style="word-wrap: break-word ;"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: {{events[2].location}} </div>
                 <p class="card-text"> {{events[2].description}}</p>
             </div>
         <br>
@@ -185,12 +166,12 @@
         </div>
         <br>
         <br>
-        <div class="col-lg-3 col-md-6"  style="margin-bottom: 20px;">
+        <div class="col-lg-3 "  style="margin-bottom: 20px;">
         <div class="card cardg" style="margin:auto;">
             <div class="card-body">
-                <div >{{events[3].title}}</div>
-                <p> <i class="fa fa-calendar" aria-hidden="true"></i> {{events[3].start }}</p>
-                <p style="word-wrap: break-word ;"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: {{events[3].location}} </p>
+                <p>{{events[3].title}}</p>
+                <div> <i class="fa fa-calendar" aria-hidden="true"></i> {{events[3].start }}</div>
+                <div style="word-wrap: break-word ;"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: {{events[3].location}} </div>
                 <p class="card-text"> {{events[3].description}}</p>
             </div>
         <br>

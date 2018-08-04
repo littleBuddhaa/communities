@@ -7,6 +7,7 @@
 .cardg{
   height:100%;
   width:90%;
+  margin:30px;
 }
 .sig-img{
   height :130px;
@@ -158,4 +159,17 @@ p {
         repeat scroll -240px 0;
     }
   }
+}
+
+.cimages{
+    max-height: 570px;
+    width : 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .cimages{
+    max-height: 450px;
+    width : 100%;
+}
+  
 }
