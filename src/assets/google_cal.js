@@ -78,13 +78,13 @@ function result_call(item,date,desc,loc){
 
    fs.writeFile("./object.json", JSON.stringify(final_arr,null,2), (err) => {
    if (err) {
-       console.error(err);
+       
         return;
     };
     
 });
 
-console.log("File has been created");
+
     flag=1;
     
 }
@@ -110,7 +110,7 @@ function listEvents(events) {
        
     
     }
-    console.log(flag);
+   
     result_call(itemsum,datearr,desc,loc)
 
     
@@ -124,7 +124,7 @@ function httpGet(url, callback) {
             // callback when we get response... 
             return callback(JSON.parse(oReq.responseText));
         } else {
-            console.log("Response: ", oReq.status);
+            
         }
     };
     oReq.send();
