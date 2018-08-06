@@ -1,6 +1,6 @@
 
 <div class ="mx-auto" >
- 
+ <div class="container .d-sm-flex">
     <mdb-carousel [isControls]="true" [animation]="'slide'" [interval]="myInterval" [(activeSlide)]="activeSlideIndex" (activeSlideChange)="activeSlideChange()">
       <mdb-slide *ngFor="let slide of slides; let index=index">
         <img [src]="slide.image" class="d-block w-80 h-70 cimages" >
@@ -9,11 +9,11 @@
         </div>
       </mdb-slide>
     </mdb-carousel>
- 
+ </div>
 </div>
 
-                
-<div class = "col-md-12">
+<div class ="container .d-sm-flex">
+
 	<div class="card">
 		<center><h3><b>About Systers</b> </h3></center>
 
@@ -26,6 +26,7 @@
 	    </div>
 	</div>
 </div>
+
 <center><h3><b>Systers Affinity Groups</b> </h3></center>
 
 <div class="container .d-sm-flex">
