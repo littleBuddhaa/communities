@@ -1,3 +1,4 @@
+
 <div class ="mx-auto" >
  
     <mdb-carousel [isControls]="true" [animation]="'slide'" [interval]="myInterval" [(activeSlide)]="activeSlideIndex" (activeSlideChange)="activeSlideChange()">
@@ -118,7 +119,7 @@
                 <br>
                 <div style="word-wrap: break-word ;"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: {{events[0].location}} </div>
                 <br>
-                <p class="card-text"> {{events[0].description}}</p>
+                <div [innerHTML]= "events[0].description" ></div>
             </div>
         <br>
         <br>
@@ -139,7 +140,7 @@
                 <br>
                 <div style="word-wrap: break-word ;"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: {{events[1].location}} </div>
                 <br>
-                <p class="card-text"> {{events[1].description}}</p>
+                <div [innerHTML]= "events[1].description" ></div>
             </div>
         <br>
         <br>
@@ -160,7 +161,7 @@
                 <br>
                 <div style="word-wrap: break-word ;"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: {{events[2].location}} </div>
                 <br>
-                <p class="card-text"> {{events[2].description}}</p>
+                <div [innerHTML]= "events[2].description" ></div>
             </div>
         <br>
         <br>
@@ -180,7 +181,7 @@
                 <br>
                 <div style="word-wrap: break-word ;"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: {{events[3].location}} </div>
                 <br>
-                <p class="card-text"> {{events[3].description}}</p>
+                <div [innerHTML]= "events[3].description" ></div>
             </div>
         <br>
         <br>
