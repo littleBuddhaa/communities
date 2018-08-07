@@ -27,14 +27,7 @@ h2{
 	margin:30px;
 }
 .cimage{
-    max-height: 570px;
+    height: 80vh;
     width : 100%;
 }
 
-@media only screen and (max-width: 1000px) {
-    .cimage{
-    max-height: 450px;
-    width : 100%;
-}
-  
-}

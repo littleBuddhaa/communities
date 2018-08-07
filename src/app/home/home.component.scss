@@ -163,14 +163,6 @@ p {
 }
 
 .cimages{
-    max-height: 570px;
+    max-height: 80vh;
     width : 100%;
-}
-
-@media only screen and (max-width: 1000px) {
-    .cimages{
-    max-height: 450px;
-    width : 100%;
-}
-  
 }
