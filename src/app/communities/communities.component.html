@@ -1,16 +1,14 @@
-<div class ="container .d-sm-flex">
 <div class ="mx-auto" >
- 
+ <div class="container .d-sm-flex">
     <mdb-carousel [isControls]="true" [animation]="'slide'" [interval]="myInterval" [(activeSlide)]="activeSlideIndex" (activeSlideChange)="activeSlideChange()">
       <mdb-slide *ngFor="let slide of slides; let index=index">
-        <img [src]="slide.image" class="d-block w-80 h-70 cimage" >
+        <img [src]="slide.image" class="d-block w-80 h-70 cimages" >
         <div class="carousel-caption">
-         
+          
         </div>
       </mdb-slide>
     </mdb-carousel>
- 
-</div>
+ </div>
 </div>
 <div class = "container .d-sm-flex " style="padding-top: 20px;">
 <ngb-tabset (tabChange)="beforeChange($event)" [justify]="currentJustify" >
