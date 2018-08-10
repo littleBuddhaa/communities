@@ -100,7 +100,7 @@ function listEvents(events) {
             item = events.items[i];
             date = (item.start.date) ? item.start.date : item.start.dateTime.split('T')[0];
             if(item.summary != undefined){
-                itemsum.push(jQuery(item.summary).text());
+                itemsum.push(item.summary);
                 datearr.push(date);
                 desc.push(item.description);
                 loc.push(item.location);
