@@ -33,136 +33,19 @@ center{
 }
 
 
-html {
-  box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-body {
-  padding: 2rem;
-  line-height: normal;
-}
-
-p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  overflow:hidden;
-}
-
-.grid-block {
-  display: block;
-  text-align: center;
-  width: 100%;
-}
-
-.flip-container {
-  display: inline-block;
-  height: 300px !important;
-  margin: 10px;
-  width: 195px !important;
-  position: relative;
-  perspective: 800px;
-
-  &:hover {
-    .flip-card {
-      transform: rotateY(180deg);
-      -webkit-transform: rotateY(180deg);
-    }
-  }
-}
-
-.flip-card {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  transform-style: preserve-3d;
-  transition: transform 0.6s;
-
-  & > div {
-    margin: 0;
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-
-  .front-face {
-    padding: 8px;
-
-    img {
-      height: 170px;
-      width: 170px;
-    }
-
-    span {
-      color: #fff;
-      font-size: 20px;
-      text-align: center;
-    }
-  }
-
-  .back-face-center {
-    transform: rotateY(180deg);
-    cursor: default;
-
-    p {
-      color: #fff;
-      font-size: 12px;
-      margin: 0;
-      padding: 8px;
-    }
-  }
-}
-
-#f1 {
-  .front-face,
-  .back-face-center {
-    background-color: #A38BB8;
-   font-family: 'Source Sans Pro', sans-serif;
-  }
-  .front-face {
-    img {
-      background: rgba(0, 0, 0, 0)
-        repeat scroll 0 0;
-    }
-  }
-}
-
-#f2 {
-  .front-face,
-  .back-face-center {
-    background-color: #8d2165;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-  .front-face {
-    img {
-      background: rgba(0, 0, 0, 0)
-        repeat scroll -120px 0;
-    }
-  }
-}
-
-#f3 {
-  .front-face,
-  .back-face-center {
-    background-color: #A38BB8;
-    font-family: 'Source Sans Pro', sans-serif;
-
-  }
-  .front-face {
-    img {
-      background: rgba(0, 0, 0, 0)
-        repeat scroll -240px 0;
-    }
-  }
-}
-
 .cimages{
-    max-height: 80vh;
+    height:80vh;
     width : 100%;
+    background-size :cover;
+    background-position :top center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .cimages{
+    background-size :contain;
+    background-position :center;
+    margin-bottom:0px;
+    width : 100%;
+    height: 50vh;
+}
 }

@@ -18,11 +18,7 @@ export class CommunitiesComponent implements OnInit {
         console.log(this.activeSlideIndex);
     }
 
-    public slides:Array<Object> = [
-        {"image":"../assets/img/women2.jpg"},
-        {"image":"../assets/img/women1.jpg"},
-        {"image":"../assets/img/women3.jpg"},
-    ];
+    
     details = COMM;
     details_sig = SIG;
     detail_mail = MAILG

@@ -35,20 +35,7 @@ export class HomeComponent implements OnInit {
     public activeSlideIndex: number = 0;
     public noWrapSlides:boolean = false;
 
-    activeSlideChange(){
-        console.log(this.activeSlideIndex);
-    }
 
-    public slides:Array<Object> = [
-        {"image":"../assets/img/AsianWiC.jpg"},
-        {"image":"../assets/img/AfricanWiC-stolen.jpg"},
-        {"image":"../assets/img/women3.jpg"},
-    ];
-     public slide_text:Array<Object> = [
-        {"text":"Asian Women in Computing"},
-        {"text":"African Women in Computing"},
-        {"text":"Women in Computing"},
-    ];
   constructor() { }
 
   ngOnInit() {
