@@ -3,7 +3,8 @@
  <div class="container .d-sm-flex">
     <mdb-carousel [isControls]="true" [animation]="'slide'" [interval]="myInterval" [(activeSlide)]="activeSlideIndex" (activeSlideChange)="activeSlideChange()">
       <mdb-slide *ngFor="let slide of slides; let index=index">
-        <img [src]="slide.image" class="d-block w-80 h-70 cimages" >
+
+        <div class="d-block w-80 h-70 " style="background-image: url('{{slide.image}}'); background-repeat: no-repeat; background-size: cover;" ></div>
         <div class="carousel-caption">
           
         </div>
