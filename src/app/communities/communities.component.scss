@@ -27,7 +27,22 @@ h2{
 	margin:30px;
 }
 .cimages{
+
     height: 80vh;
+
     width : 100%;
+    background-size :cover;
+    background-position :top center;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .cimages{
+    background-size :contain;
+    background-position :center;
+    margin-bottom:0px;
+    width : 100%;
+    height: 50vh;
+}
 }
 

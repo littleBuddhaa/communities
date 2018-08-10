@@ -1,9 +1,23 @@
 
-<div class ="mx-auto" >
- <div class="container .d-sm-flex">
+<div class ="mx-auto" style="width: 100%" >
+ <div class="container .d-sm-flex" style="width: 100%">
     <mdb-carousel [isControls]="true" [animation]="'slide'" [interval]="myInterval" [(activeSlide)]="activeSlideIndex" (activeSlideChange)="activeSlideChange()">
-      <mdb-slide *ngFor="let slide of slides; let index=index">
-        <img [src]="slide.image" class="d-block w-80 h-70 cimages" >
+      <mdb-slide >
+        <div class="cimages"  alt="Card image cap" style="background-image: url(../assets/img/AfricanWiC-stolen.jpg);  background-repeat: no-repeat;" ></div>
+
+        <div class="carousel-caption">
+          
+        </div>
+      </mdb-slide>
+      <mdb-slide >
+        <div class="cimages"  alt="Card image cap" style="background-image: url(../assets/img/women1.jpg);  background-repeat: no-repeat; " ></div>
+
+        <div class="carousel-caption">
+        </div>
+      </mdb-slide>
+      <mdb-slide >
+        <div class="cimages"  alt="Card image cap" style="background-image: url(../assets/img/women3.jpg);  background-repeat: no-repeat;" ></div>
+
         <div class="carousel-caption">
           
         </div>
@@ -34,7 +48,9 @@
     <div class="row">
         <div class="col-lg-3"  style="margin-bottom: 20px;">
         <div class="card cardg" style="margin:auto;">
-            <div class="sig-img"  alt="Card image cap" style="background-image: url(../assets/img/AfricanWiC-stolen.jpg); background-size: contain; background-repeat: no-repeat; width: 100%" ></div>
+
+            <div class="sig-img"  alt="Card image cap" style="background-image: url(../assets/img/AfricanWiC-stolen.jpg);  background-repeat: no-repeat; background-size: cover; width: 100%" ></div>
+
             <div class="card-body">
                 <h4 class="card-title">African Women in Computing</h4>
                 <p class="card-text"> Our group celebrates the accomplishments of African women in the areas of STEM and technology innovation. We provide exposure to role models for African girls in the area of technologys</p>
@@ -51,7 +67,9 @@
         <br>
         <div class="col-lg-3 "  style="margin-bottom: 20px;">
         <div class="card cardg" style="margin:auto;">
-            <img class="sig-img" src="../assets/img/AsianWiC.jpg" alt="Card image cap">
+
+            <div class="sig-img"  alt="Card image cap" style="background-image: url(../assets/img/AsianWiC.jpg);  background-repeat: no-repeat; background-size: cover; width: 100%" ></div>
+
             <div class="card-body">
                 <h4 class="card-title">Asian Women in Computing</h4>
                 <p class="card-text"> Our group encourages Asian women to stay in technical fields, provides networking opportunities, and helps members advance their careers by conquering cultural barriers.</p>
@@ -68,7 +86,8 @@
         <br>
         <div class="col-lg-3 "  style="margin-bottom: 20px;">
         <div class="card cardg" style="margin:auto;">
-            <img class="sig-img" src="../assets/img/BlackWiC.jpeg" alt="Card image cap">
+
+            <div class="sig-img"  alt="Card image cap" style="background-image: url(../assets/img/BlackWiC.jpeg);  background-repeat: no-repeat; background-size: cover; width: 100%" ></div>
             <div class="card-body">
                 <h4 class="card-title">Black Women in Computing</h4>
                 <p class="card-text"> Our group provides support and resources to increase the number of black women in computing-related fields</p>
@@ -85,7 +104,9 @@
         <br>
          <div class="col-lg-3 "  style="margin-bottom: 20px;">
         <div class="card cardg" style="margin:auto;">
-            <img class="sig-img" src="../assets/img/ArabWiC.jpeg" alt="Card image cap">
+
+            <div class="sig-img"  alt="Card image cap" style="background-image: url(../assets/img/ArabWiC.jpeg);  background-repeat: no-repeat; background-size: cover; width: 100%" ></div>
+
             <div class="card-body">
                 <h4 class="card-title">Arab Women in Computing</h4>
                 <p class="card-text"> Created from the regional collaborative on Women in Computing in the Arab World with NYU Abu Dhabi, our group connects Arab women in computing around the globe to engage with and inspire one another.</p>

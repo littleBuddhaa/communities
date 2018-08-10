@@ -1,8 +1,25 @@
-<div class ="mx-auto" >
- <div class="container .d-sm-flex">
+
+<div class ="mx-auto" style="width: 100%" >
+ <div class="container .d-sm-flex" style="width: 100%">
     <mdb-carousel [isControls]="true" [animation]="'slide'" [interval]="myInterval" [(activeSlide)]="activeSlideIndex" (activeSlideChange)="activeSlideChange()">
-      <mdb-slide *ngFor="let slide of slides; let index=index">
-        <img [src]="slide.image" class="d-block w-80 h-70 cimages" >
+      <mdb-slide >
+        <div class="cimages"  alt="Card image cap" style="background-image: url(../assets/img/women2.jpg);  background-repeat: no-repeat;" ></div>
+
+        <div class="carousel-caption">
+          
+        </div>
+      </mdb-slide>
+      <mdb-slide >
+        <div class="cimages"  alt="Card image cap" style="background-image: url(../assets/img/women1.jpg);  background-repeat: no-repeat; " ></div>
+
+        <div class="carousel-caption">
+          
+        </div>
+      </mdb-slide>
+      <mdb-slide >
+        <div class="cimages"  alt="Card image cap" style="background-image: url(../assets/img/women3.jpg);  background-repeat: no-repeat;" ></div>
+
+
         <div class="carousel-caption">
           
         </div>
@@ -20,7 +37,10 @@
     <div class="row">
         <div class="col-lg-3 col-md-6" *ngFor="let det of details ; let index=index ;" style="margin-bottom: 20px;">
         <div class="card" style="margin:auto;">
-            <img class="sig-img" src="{{det.img}}" alt="Card image cap">
+
+        <div [ngStyle]="{'background-image': 'url(' + det.img + ')'}" class="sig-img" style="background-repeat: no-repeat; background-size: cover; width: 100%"></div>
+            
+
             <div class="card-body">
                 <h4 class="card-title">{{det.title}}</h4>
                 <p class="card-text">{{det.desc}}</p>
@@ -49,7 +69,7 @@
     <div class="row">
         <div class="col-lg-3" *ngFor="let det of details_sig ; let index=index ;" style="margin-bottom: 20px;">
         <div class="card" style="margin:auto;">
-            <img class="sig-img" src="../assets/img/women1.jpg" alt="Card image cap">
+            <div class="sig-img"  alt="Card image cap" style="background-image: url(../assets/img/women1.jpg);  background-repeat: no-repeat; background-size: cover; width: 100%" ></div>
             <div class="card-body">
                 <h4 class="card-title">{{det.title}}</h4>
                 <p class="card-text">{{det.desc}}</p>
@@ -77,7 +97,7 @@
         <div class="row">
             <div class="col-lg-3" *ngFor="let det of detail_mail ; let index=index ;" style="margin-bottom: 20px;">
             <div class="card">
-                <img class="sig-img" src="../assets/img/women1.jpg" alt="Card image cap">
+                <div class="sig-img"  alt="Card image cap" style="background-image: url(../assets/img/women1.jpg);  background-repeat: no-repeat; background-size: cover; width: 100%" ></div>
                 <div class="card-body">
                     <h4 class="card-title">{{det.title}}</h4>
                     <p class="card-text">{{det.desc}}</p>
