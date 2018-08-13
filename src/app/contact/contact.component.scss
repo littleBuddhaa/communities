@@ -1,4 +1,7 @@
-
+.mainb{
+	margin: 70px;
+	overflow-x: hidden;
+}
 h2{
 	color:#54BCEB;
 }
@@ -41,6 +44,10 @@ span{
     max-height: 600px;
     width : 100%;
 }
+.mainb{
+	margin: 0px;
+	overflow-x: hidden;
+}
 }
 @media only screen and (max-width: 600px) {
     .info{
@@ -54,6 +61,7 @@ span{
 	.fa{
 		height:4px;
 	}
+
 
 }
 
