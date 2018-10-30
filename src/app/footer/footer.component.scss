@@ -7,3 +7,16 @@
         display: none;
     }
 }
+
+.icons-container{
+    padding-bottom: 1rem;
+}
+
+.footer-text{
+    display: flex;
+    align-items: center;
+    @media (max-width: 768px){
+        padding: 1rem 0;
+        justify-content: center;
+    }
+}
