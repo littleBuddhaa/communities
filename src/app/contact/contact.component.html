@@ -18,7 +18,7 @@
 
         <!-- Email address -->
         <h3>Email</h3>
-        <input id="email" type="text" class="form-control" name="email" placeholder="Email" formControlName="email">
+        <input id="email" type="email" class="form-control" name="email" placeholder="Email" formControlName="email">
         <div *ngIf="email.errors?.pattern">
              <p style="color:red;">Enter a valid email ID</p>
         </div> 
